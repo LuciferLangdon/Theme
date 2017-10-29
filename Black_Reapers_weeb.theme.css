@@ -1,0 +1,130 @@
+//META{"name":"Black_reaper_Weeb_Theme","description":"A custom theme for bobo aka me","author":"Black Reaper Original Bobo","version":"1"}*//{}
+
+
+/* Background image */
+
+.app, .callout-backdrop {
+background: url(https://avante.biz/wp-content/uploads/Anime-Cat-Girl-Wallpapers/Anime-Cat-Girl-Wallpapers-006.jpg) !important;
+background-size: cover !important;
+}
+
+/* transparent areas */
+
+.account, .typing, .content, .private-channels, .divider-red span, .messages-wrapper, #voice-connection {
+background: transparent !important;
+}
+
+/* Server list area */
+
+.guilds-wrapper {
+background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Chat */
+
+.chat {
+background: rgba(0, 0, 0, -0.3) !important;
+}
+
+/* Channels list area */
+
+.channels-wrap {
+background: rgba(0, 0, 0, 0.7) !important;
+}
+.guild-channels .channel-text.selected {
+background: linear-gradient(90deg,rgba(0,0,0,0.55) 85%,rgba(0, 0, 0, 0));
+}
+.guild-channels .channel-text:hover {
+background: linear-gradient(90deg,rgba(0,0,0,0.65) 85%,rgba(0, 0, 0, 0));
+}
+
+
+/* Chat area */
+
+.content .flex-spacer {
+background: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* User list area */
+
+.channel-members {
+background: rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Title Wrap */
+
+.chat .title-wrap {
+background-color: rgba(0, 0, 0, 0.85) !important;
+border-bottom: 1px solid transparent !important;
+}
+
+
+/*Transparency*/
+#rtc-connection,
+#friends,
+.friends-header,
+.friends-table,
+.guild-header header,
+.channels-wrap,
+.private-channels .search-bar,
+.private-channels,
+.guild-channels,
+.account,
+.friend-table-add-header,
+.content,
+.body, 
+.layers,
+.layer,
+.messages-wrapper,
+.messages .divider span,
+.messages .divider:before,
+.content,
+.message-group-blocked,
+.is-local-bot-message,
+.channel-members-loading,
+.channel-members-loading .heading,
+.channel-members-loading .member,
+.typing,
+.container-RYiLUQ {
+    background: transparent !important;
+}
+
+.container-2OU7Cz, .theme-dark .title-qAcLxz, .channels-3g2vYe, .theme-dark .headerBar-cxbhPD {
+    background-color: transparent;
+}
+
+css.theme-dark .title-qAcLxz, .channels-3g2vYe {
+Background-color: transparent !important;
+}
+
+.titleWrapper-3Vi_wz {
+    Background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.container-2OU7Cz, .channels-3g2vYe, .title-qAcLxz,
+.theme-dark .chat form, .headerBar-cxbhPD
+{ background-color: transparent; }
+
+/* Channel List, Server Name */
+.channels-3g2vYe, .title-qAcLxz {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+/* Channel Name Bar */
+.theme-dark .title-qAcLxz {
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Friends Header */
+.headerBar-cxbhPD {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.container-2OU7Cz {background: transparent!important;}
+.theme-dark .title-qAcLxz {background: rgba(0,0,0,0.75)!important;}
+
+.theme-dark .private-channel-call {background-color: rgba(0, 0, 0, 0.75);}
+.theme-dark .ui-video {background-color: rgba(0,0,0,0);}
+#app-mount .titleWrapper-3Vi_wz > div {background-color:rgba(0,0,0,0);}
+#app-mount .titleWrapper-3Vi_wz {background-color: rgba(0, 0, 0, 0);}
+.title-qAcLxz, .titleCall-3X0yGQ {border-bottom: solid 2px var(--main-color);}
+.theme-dark .private-channel-call.minimum .private-channel-call-actions .center {background-color: transparent;border-color: transparent;}
